@@ -18,14 +18,14 @@ body {
 .card {
     width: 90%;
     max-width: 550px;
-    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+    background: rgba(0, 0, 0, 0.5); 
     color: #fff;
     border-radius: 25px;
     text-align: center;
     padding: 40px 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s, box-shadow 0.2s;
-    backdrop-filter: blur(8px); /* Blurry background effect */
+    backdrop-filter: blur(8px); 
     position: relative;
 }
 
