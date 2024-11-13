@@ -85,12 +85,14 @@ async function checkWeather(city) {
 
 SearchButton.addEventListener("click", () => {
     if (SearchBox.value.trim() !== "") {
+document.querySelector(".weather").style.display = "none";
         checkWeather(SearchBox.value);
     }
 });
 
 SearchBox.addEventListener("keypress", (event) => {
     if (event.key === "Enter" && SearchBox.value.trim() !== "") {
+document.querySelector(".weather").style.display = "none";
         checkWeather(SearchBox.value);
     }
 });
